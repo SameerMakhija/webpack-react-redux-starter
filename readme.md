@@ -20,4 +20,16 @@
     - eslint to keep your js readable
 
 4. Modification
-    - 
+    - ```babel-plugin-react-html-attrs``` added to use class instead of className in jsx
+
+        1. $ npm install babel-plugin-react-html-attrs --save-dev
+        2. Add plugin reference in ```.babelrc```
+
+        ```
+            "plugins": [
+                "react-hot-loader/babel",
+                "react-html-attrs"
+            ]
+        ```
+    
+
